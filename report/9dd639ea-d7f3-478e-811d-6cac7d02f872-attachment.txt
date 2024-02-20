@@ -1,0 +1,17 @@
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/login"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:assert_util.py:13 预期结果:http://meikefresh.5istudy.online/#/app/login == http://meikefresh.5istudy.online/#/app/login
+INFO     log:assert_util.py:31 断言成功
+DEBUG    log:base_page.py:336 网页后退
+INFO     log:base_page.py:34 定位元素('xpath', '//a[contains(text(),"会员中心")]')
+INFO     log:base_page.py:192 鼠标移动到('xpath', '//a[contains(text(),"会员中心")]')位置
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/home/member/collection"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:assert_util.py:13 预期结果:http://meikefresh.5istudy.online/#/app/login == http://meikefresh.5istudy.online/#/app/login
+INFO     log:assert_util.py:31 断言成功
+DEBUG    log:base_page.py:336 网页后退
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/shoppingcart/cart"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:147 切换窗口
+INFO     log:assert_util.py:13 预期结果:http://meikefresh.5istudy.online/#/app/login == http://meikefresh.5istudy.online/#/app/login
+INFO     log:assert_util.py:31 断言成功

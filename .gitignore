@@ -1,0 +1,4 @@
+allure-report
+.pytest_cache
+log
+draft.py

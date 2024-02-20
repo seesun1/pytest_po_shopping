@@ -1,0 +1,57 @@
+userinfo:
+  username: admin
+  password: 123456
+
+skill:
+  - 接口自动化
+  - UI自动化
+  - 性能测试
+
+userinfos:
+  - username: admin
+    password: 123456
+  - username: test01
+    password: 123456
+
+userinfo_list:
+  - [ admin,123456 ]
+  - [ test01,123456 ]
+
+skills:
+  - - 接口自动化
+    - UI自动化
+    - 性能测试
+
+skills2:
+  - [ 接口自动化, UI自动化, 性能测试 ]
+
+
+#项目
+register_ok:
+  mobile: 13800001762
+  password: 123456
+
+register_failed:
+  mobile: 13800001112
+  password: 123456
+
+register_exist:
+  mobile: 13017744356
+
+user_login:
+  - mobile: ''
+    password: 123456
+  - mobile: 13800001111
+    password: ''
+  - mobile: 13800001111
+    password: 123451
+  - mobile: 13800001111
+    password: 123456
+
+user_address:
+  province: 天津市
+  city: 天津城区
+  district: 和平区
+  username: 老白
+  useraddress: 人民广场100
+  mobile: 13800001111

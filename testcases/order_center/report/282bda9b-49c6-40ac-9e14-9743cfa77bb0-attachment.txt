@@ -1,0 +1,28 @@
+INFO     log:base_page.py:106 打开网址http://meikefresh.5istudy.online/#/app/login
+INFO     log:base_page.py:34 定位元素('id', 'account_l')
+INFO     log:base_page.py:81 输入内容为：13800001111
+INFO     log:base_page.py:34 定位元素('id', 'password_l')
+INFO     log:base_page.py:81 输入内容为：123456
+INFO     log:base_page.py:34 定位元素('id', 'jsLoginBtn')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('css selector', '.newgoods_fastbuy>li>div>a')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:147 切换窗口
+INFO     log:base_page.py:34 定位元素('id', 'buy_btn')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//*[@id="cart_show"]/div[2]/a[2]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:268 元素('xpath', '//*[@id="cart-box"]/div[2]/ul/li')已存在，等待0秒
+INFO     log:base_page.py:34 定位元素('xpath', '//p[contains(text(),"配送地址")]/following-sibling::ul/li[2]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//p[contains(text(),"支付方式")]/following-sibling::p/img')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//*[@id="cart-box"]/div[3]/textarea')
+INFO     log:base_page.py:81 输入内容为：测试订单
+INFO     log:base_page.py:34 定位元素('xpath', '//*[@id="cart-box"]/div[3]/p/a')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:309 获取弹窗的文本信息：订单创建成功
+INFO     log:assert_util.py:13 预期结果:订单创建成功 == 订单创建成功
+INFO     log:assert_util.py:31 断言成功
+INFO     log:base_page.py:313 在弹窗上点击确认
+INFO     log:base_page.py:113 关闭浏览器

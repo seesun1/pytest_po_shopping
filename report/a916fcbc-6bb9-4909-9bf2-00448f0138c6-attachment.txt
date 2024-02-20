@@ -1,0 +1,23 @@
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('id', 'jsRegMobile')
+INFO     log:base_page.py:81 输入内容为：13800001762
+INFO     log:base_page.py:34 定位元素('id', 'jsSendCode')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:mysql_util.py:25 执行sql：select code from users_verifycode where mobile = 13800001762 order by id desc limit 1;
+INFO     log:mysql_util.py:29 sql执行结果{'code': '4771'}
+INFO     log:base_page.py:34 定位元素('id', 'jsPhoneRegCaptcha')
+INFO     log:base_page.py:81 输入内容为：4771
+INFO     log:base_page.py:34 定位元素('id', 'jsPhoneRegPwd')
+INFO     log:base_page.py:81 输入内容为：123456
+INFO     log:base_page.py:34 定位元素('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/home/member/userinfo"]')
+INFO     log:base_page.py:181 元素('css selector', 'a[href="#/app/home/member/userinfo"]')的text为13800001762
+INFO     log:assert_util.py:13 预期结果:13800001762 == 13800001762
+INFO     log:assert_util.py:31 断言成功
+INFO     log:base_page.py:34 定位元素('xpath', '//*[@id="ECS_MEMBERZONE"]/a[2]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:106 打开网址http://meikefresh.5istudy.online/
+INFO     log:mysql_util.py:44 执行sql：delete from users_userprofile where username = 13800001762
+INFO     log:mysql_util.py:44 执行sql：delete from users_verifycode where mobile = 13800001762

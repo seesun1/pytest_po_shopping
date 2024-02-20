@@ -1,0 +1,39 @@
+INFO     log:base_page.py:106 打开网址http://meikefresh.5istudy.online/#/app/login
+INFO     log:base_page.py:34 定位元素('id', 'account_l')
+INFO     log:base_page.py:81 输入内容为：13800001111
+INFO     log:base_page.py:34 定位元素('id', 'password_l')
+INFO     log:base_page.py:81 输入内容为：123456
+INFO     log:base_page.py:34 定位元素('id', 'jsLoginBtn')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//a[contains(text(),"会员中心")]')
+INFO     log:base_page.py:192 鼠标移动到('xpath', '//a[contains(text(),"会员中心")]')位置
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/home/member/receive"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//td[contains(text(),"配送区域")]/following-sibling::td/div/div/select[1]')
+INFO     log:base_page.py:240 根据下表天津市获取select
+INFO     log:base_page.py:34 定位元素('xpath', '//td[contains(text(),"配送区域")]/following-sibling::td/div/div/select[2]')
+INFO     log:base_page.py:240 根据下表天津城区获取select
+INFO     log:base_page.py:34 定位元素('xpath', '//td[contains(text(),"配送区域")]/following-sibling::td/div/div/select[3]')
+INFO     log:base_page.py:240 根据下表和平区获取select
+INFO     log:base_page.py:34 定位元素('id', 'consignee_0')
+INFO     log:base_page.py:81 输入内容为：老白
+INFO     log:base_page.py:34 定位元素('id', 'address_0')
+INFO     log:base_page.py:81 输入内容为：人民广场100
+INFO     log:base_page.py:34 定位元素('id', 'mobile_0')
+INFO     log:base_page.py:81 输入内容为：13800001111
+INFO     log:base_page.py:34 定位元素('xpath', '//button[contains(text(),"新增收货地址")]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:309 获取弹窗的文本信息：添加成功
+INFO     log:assert_util.py:13 预期结果:添加成功 == 添加成功
+INFO     log:assert_util.py:31 断言成功
+INFO     log:base_page.py:313 在弹窗上点击确认
+INFO     log:base_page.py:34 定位元素('xpath', '//button[contains(text(),"确定修改")]')
+INFO     log:base_page.py:181 元素('xpath', '//button[contains(text(),"确定修改")]')的text为确定修改
+INFO     log:assert_util.py:13 预期结果:确定修改 == 确定修改
+INFO     log:assert_util.py:31 断言成功
+INFO     log:base_page.py:34 定位元素('xpath', '//button[contains(text(),"删除")]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:309 获取弹窗的文本信息：删除成功
+INFO     log:base_page.py:313 在弹窗上点击确认
+INFO     log:assert_util.py:13 预期结果:删除成功 == 删除成功
+INFO     log:assert_util.py:31 断言成功

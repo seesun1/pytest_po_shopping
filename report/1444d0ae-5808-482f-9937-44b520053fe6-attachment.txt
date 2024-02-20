@@ -1,0 +1,11 @@
+INFO     log:base_page.py:34 定位元素('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('id', 'jsRegMobile')
+INFO     log:base_page.py:81 输入内容为：13017744356
+INFO     log:base_page.py:34 定位元素('id', 'jsSendCode')
+INFO     log:base_page.py:97 点击按钮
+INFO     log:base_page.py:34 定位元素('xpath', '//*[@id="mobile_register_form"]/p[1]')
+INFO     log:base_page.py:181 元素('xpath', '//*[@id="mobile_register_form"]/p[1]')的text为用户已经存在
+INFO     log:assert_util.py:13 预期结果:用户已经存在 == 用户已经存在
+INFO     log:assert_util.py:31 断言成功
+INFO     log:base_page.py:106 打开网址http://meikefresh.5istudy.online/
